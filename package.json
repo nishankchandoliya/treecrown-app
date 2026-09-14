@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@railway/cli": "^5.54.1"
+  }
+}

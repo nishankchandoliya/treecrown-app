@@ -1,0 +1,16 @@
+streamlit>=1.60
+rasterio>=1.3
+shapely>=2.0
+pyproj>=3.6
+numpy
+pillow
+
+# DeepForest (and its own torch/torchvision/pytorch-lightning dependencies)
+# is intentionally listed last. It could NOT be fully installed/run in the
+# sandboxed dev environment this project was built in - see docs/DEV_NOTES.md
+# for exactly why (CUDA runtime libs + disk quota + no huggingface.co
+# network access). It is expected to install and run normally on Hugging
+# Face Spaces / Streamlit Community Cloud, which have full internet access
+# and a normal amount of disk. Pin the version once we've confirmed it
+# against the real target imagery.
+deepforest
