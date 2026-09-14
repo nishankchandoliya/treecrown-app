@@ -7,6 +7,7 @@ sdk: streamlit
 sdk_version: "1.63.0"
 app_file: app/app.py
 pinned: false
+Live Demo URL: https://treecrown-app-co5gzq9mpkhg5etk4hxtsh.streamlit.app/
 ---
 
 # Tree Crown Detection & Canopy Cover Estimation
