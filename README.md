@@ -28,12 +28,7 @@ Streamlit app wires all of this together and is tested headlessly with
 Streamlit's `AppTest` framework (no browser needed) - including the
 demo-failure fallback flow end-to-end.
 
-**Not yet runnable in this dev sandbox**: real DeepForest inference (needs
-a working torch install + Hugging Face Hub access - see
-`docs/DEV_NOTES.md` for exactly why, and why it's expected to work fine on
-the actual deployment target). Everything downstream of "a detector exists"
-has been verified using a test-only fake detector that never ships in the
-real app.
+
 
 **Known gaps, deferred on purpose (see brief's own priority order):**
 - KML clipping/calibration - not started.
